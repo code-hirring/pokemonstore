@@ -143,7 +143,7 @@ class App extends Component {
     var sum = parseFloat(0);
     if (exist_pokemon.length > 0) {
       pokemons_update = pokemons_carrinho.map((element, index) => {
-        if (pokemon.name == element.name) {
+        if (pokemon.name === element.name) {
           element['quantidade'] = element.quantidade + 1 ;
           element['preco'] = (element.preco * element.quantidade).toFixed(2);
         }
@@ -258,7 +258,7 @@ class App extends Component {
           <div className='carrinho'>
         {<Carrinho pokemons_carrinho={pokemons_carrinho} total={total} adicionarPokemonCarrinho={this.addPokemonCarrinho} removerPokemonCarrinho={this.removerPokemonCarrinho} />}
         </div>
-        <a id='link_finalizar_compra_pokemon' className='label_finalizar' url='#' onClick={() => this.finalizar_compra_pokemon()}  style={{ display: display_acao_finalizada }} >Finalizar</a>
+        <a id='link_finalizar_compra_pokemon' className='label_finalizar' href='#' onClick={() => this.finalizar_compra_pokemon()}  style={{ display: display_acao_finalizada }} >Finalizar</a>
         </div>
         {<CompraFinalizada show_compra_finalizada={show_compra_finalizada} resumir_compra_pokemon={this.resumir_compra_pokemon} voltar_compra_mais={this.voltar_compra_mais} />}
             
