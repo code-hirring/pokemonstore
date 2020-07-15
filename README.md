@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PokeMoN SToRe :punch: 
+![Badge](https://img.shields.io/static/v1?label=javascript&message=Language&color=blue&style=for-the-badge&logo=javascript) ![Badge](https://img.shields.io/static/v1?label=react&message=sdk&color=blue&style=for-the-badge&logo=react) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT) 
 
-## Available Scripts
+<img src="pokemon.png" alt="ash_pikachu" class="center"/>
 
-In the project directory, you can run:
+# Descrição do Projeto :skull:
 
-### `yarn start`
+ O projeto é loja virtual de Pokémon onde é possível simular a realizaçõa de compras no desafio proposto pela [![N|gama academy](https://xpcorp.gama.academy/assets/logo-nav-black-478b995c681064a54339fa14e4885288162d2cb9c6a8ddca326315622f0a25cf.svg)](https://xpcorp.gama.academy/). 
+ 
+ [![N|gama academy](https://pokeapi.co/static/pokeapi_256.888baca4.png)](https://pokeapi.co/) é consumida pela aplicação para carregar a lista de Pokemóns.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Funcionalides :checkered_flag:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- :white_check_mark: Catálogo de produtos :trophy:
+- :white_check_mark: Carrinho lateral :trophy:
+- :white_check_mark: Resumo do carrinho :trophy:
+- :white_check_mark: Barra de busca para filtrar os Pokémon :trophy:
+- :white_check_mark: Botão de finalizar compra, reiniciando o processo de compra :trophy:
+- :white_check_mark: Modal de obrigado ao finalizar compra :trophy:
 
-### `yarn test`
+### Layout da Aplicação
+[Aqui](https://www.figma.com/file/sVyQr6t6f6HCc3U5HPSAGH/Untitled?node-id=0%3A1) é possível visualizar a proposta de layout do projeto.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Linguagens, Dependências e Bibliotecas utilizadas :construction:
 
-### `yarn build`
+  - Javascript
+  - [Node.js](http://nodejs.org/) 
+  - [React.js](https://reactjs.org/)
+  - [NPM](http://npmjs.com/)
+  - [Yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Deploy da Aplicação com Netlify :pushpin:
+    https://pokemonstore-gama-academy-01.netlify.app/
+    
+# Todo :soon:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- :x: Salvar os dados da compra do usuário localmente para não perdê-las ao atualizar a página
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# License :warning:
+Este projeto é licenciado sobre a licença MIT - Veja o arquivo LICENSE.MD para detalhes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Autor :man:
+- Me :smirk:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Agredecimentos :family:
+- Acomunicadade do gama academy no whatsaap
+- Acomunicadade do gama academy no slack
+- Gama Academy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
